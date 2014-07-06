@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ "$NODE_ENV" == "development" ]; then
+  nodemon web.js
+else
+  node web.js
+fi

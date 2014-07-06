@@ -7,7 +7,7 @@ app.use(logfmt.requestLogger());
 app.use(express.static('dist'));
 
 app.get('/', function(req, res) {
-  res.send('Hello World!');
+  res.sendfile('files/index.html');
 });
 
 var port = Number(process.env.PORT || 5000);

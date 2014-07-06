@@ -4,6 +4,8 @@ var app = express();
 
 app.use(logfmt.requestLogger());
 
+app.use(express.static('dist'));
+
 app.get('/', function(req, res) {
   res.send('Hello World!');
 });

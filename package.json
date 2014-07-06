@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-bootstrap",
+  "version": "0.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foundline/nodejs-bootstrap"
+  },
+  "keywords": [
+    "example",
+    "heroku",
+    "nodejs",
+    "bootstrap"
+  ],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/foundline/nodejs-bootstrap/issues"
+  },
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~4.5.0"
+  }
+}

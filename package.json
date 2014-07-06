@@ -24,5 +24,8 @@
   "dependencies": {
     "logfmt": "~1.1.2",
     "express": "~4.5.0"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }

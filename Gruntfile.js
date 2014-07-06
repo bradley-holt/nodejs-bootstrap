@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
+    clean: [ "dist" ],
     less: {
       production: {
         options: {
@@ -40,10 +41,11 @@ module.exports = function(grunt) {
     },
   });
   
+  grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-contrib-less");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-copy");
    
-  grunt.registerTask("default", [ "less", "uglify", "copy" ]);
+  grunt.registerTask("default", [ "clean", "less", "uglify", "copy" ]);
 
 };

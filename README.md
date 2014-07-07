@@ -34,10 +34,10 @@ Running
 Start the server with Foreman:  
 `foreman start`
 
+Note that running `foreman start` will run both the Node.js server and `grunt watch` simultaneously.
+
 You can optionally use Nodemon to monitor for changes and automatically restart the server. To use Nodemon, create a file called `.env` with the following contents before starting Foreman:
 
 ```
 NODE_ENV=development
 ```
-
-Note that you will likely want to run both `foreman start` and `grunt watch` simultaneously in separate terminal windows.

@@ -31,7 +31,7 @@ Optionally, have Grunt watch for changes in your Less files:
 Running
 -------
 
-Start Foreman:  
+Start the server with Foreman:  
 `foreman start`
 
 You can optionally use Nodemon to monitor for changes and automatically restart the server. To use Nodemon, create a file called `.env` with the following contents before starting Foreman:

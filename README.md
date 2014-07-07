@@ -31,13 +31,7 @@ Optionally, have Grunt watch for changes in your Less files:
 Running
 -------
 
-Start the server with Foreman:  
-`foreman start`
+Start the server and other processes in development mode with Foreman:  
+`foreman start -f Procfile.dev`
 
-Note that running `foreman start` will run both the Node.js server and `grunt watch` simultaneously.
-
-You can optionally use Nodemon to monitor for changes and automatically restart the server. To use Nodemon, create a file called `.env` with the following contents before starting Foreman:
-
-```
-NODE_ENV=development
-```
+Running in development mode requires Nodemon, which monitors for changes and automatically restarts the server. Note that both the Node.js server and `grunt watch` are run simultaneously in development mode (so there is no need to run Grunt separately).

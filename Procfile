@@ -1,2 +1,1 @@
-web: bin/web
-grunt: grunt watch
+web: node web.js

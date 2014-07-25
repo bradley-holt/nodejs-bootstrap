@@ -35,4 +35,7 @@ Running
 Start the server and other processes in development mode with Foreman:  
 `foreman start -f Procfile.dev`
 
+The Node.js server will be listening on port 5000:  
+`http://localhost:5000`
+
 Running in development mode requires Nodemon, which monitors for changes and automatically restarts the server. Note that both the Node.js server and `grunt watch` are run simultaneously in development mode (so there is no need to run Grunt separately).

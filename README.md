@@ -8,6 +8,7 @@ Requirements
 
 * [Node.js](http://nodejs.org/)
 * [Heroku Toolbelt](https://toolbelt.heroku.com/) (includes Heroku client, Foreman, and Git)
+* [Grunt CLI](http://gruntjs.com/)
 * [Nodemon](http://nodemon.io/) (optional)
 
 

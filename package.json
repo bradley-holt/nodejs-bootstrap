@@ -23,16 +23,17 @@
     "url": "https://github.com/foundline/nodejs-bootstrap/issues"
   },
   "dependencies": {
-    "logfmt": "~1.1.2",
-    "express": "~4.5.0",
-    "bower": "~1.3.7",
-    "grunt": "~0.4.5",
-    "grunt-contrib-uglify": "~0.5.0",
-    "grunt-contrib-less": "~0.11.3",
-    "grunt-contrib-copy": "~0.5.0",
-    "grunt-cli": "~0.1.13",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-watch": "~0.6.1"
+    "bower": "~1.8.0",
+    "express": "~4.15.3",
+    "grunt": "~1.0.1",
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-less": "~1.4.1",
+    "grunt-contrib-uglify": "~3.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "logfmt": "~1.2.0",
+    "npm-check-updates": "^2.12.1"
   },
   "engines": {
     "node": "0.10.x"
